@@ -1,0 +1,23 @@
+h1
+{
+    text-align: center;
+}
+.grid-container
+{
+display: grid;
+width: 80%;
+height: 400px;
+grid-template-columns: 2fr 2fr 1fr;
+grid-template-rows: 2fr 2fr 2fr;
+background-color: cadetblue;
+padding: 10px;
+grid-gap: 5px 10px;
+margin: 0 auto;
+}
+.grid-container > div 
+{
+background-color: cornflowerblue;
+text-align: center;
+padding: 10px;
+font-size: 30px;
+}
